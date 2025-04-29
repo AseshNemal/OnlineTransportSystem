@@ -1,0 +1,89 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    
+}
+
+body{
+
+    background: url('Cimages/staffloginbg1.png');
+    background-repeat: no repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-form-staff{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width:350px;
+    /*backdrop-filter: blur(8px);/*blur effect ek*/
+}
+
+.login-form-staff h1{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+}
+
+.login-form-staff p{
+    font-size: 14px;
+    color:gray;
+    margin-bottom: 8px;
+
+}
+
+.login-form-staff input{
+
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #66b2ff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+
+}
+
+.login-form-staff input:focus{
+
+    border-color: #3399ff;
+    background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+.login-form-staff button{
+
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+
+}
+
+.login-form-staff button:hover{
+
+    background-color: red;
+
+}

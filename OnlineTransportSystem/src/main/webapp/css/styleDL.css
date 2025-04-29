@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    /*font-family: sans-serif;*/
+}
+
+body {
+    background-image: url('Cimages/driverloginbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    
+}
+
+
+.login-form-driver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.login-form-driver h1 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0 20px 0;
+    color: #ffd700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+
+.login-form-driver p {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.login-form-driver input {
+    font-size: 14px;
+    padding: 10px 8px;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.login-form-driver input::placeholder {
+    color: #bbb;
+}
+
+.login-form-driver button {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 8px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    background-color: #ffd700;
+    color: #000;
+    cursor: pointer;
+}
+
+.login-form-driver button:hover {
+    background-color: #ff0000;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link a {
+    color: #ffd700; /* Match with heading color */
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline; /* Adds an underline effect on hover */
+}

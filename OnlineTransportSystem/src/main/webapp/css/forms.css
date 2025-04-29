@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+.form-1{
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    background-color: #A3AD9B;
+    padding: 20px;
+    padding-left:150px;
+    padding-right:170px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+
+h1{
+	text-align: center;
+}
+
+.batton {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 8px 10px;
+    width: 200px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #ffd700;
+    color: #000;
+    cursor: pointer;
+}

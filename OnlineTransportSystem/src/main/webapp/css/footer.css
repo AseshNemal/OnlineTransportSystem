@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+footer{
+	background-color: black;
+	margin-top: 10px;
+	left: 0;
+	bottom: 0;
+	width: 100%
+}
+
+.F-div-1{
+	color: white;
+	position: relative;
+	height: 300px;
+	bottom: 10px;
+	
+}
+
+
+.F-div-2{
+	position: absolute;
+	top: 20px;
+	left: 600px;
+}
+
+.F-div-3{
+	position: absolute;
+	bottom: 50px;
+	left: 200px;
+}
+
+.F-div-4{
+	position: absolute;
+	bottom: 50px;
+	left: 500px;
+}
+
+.F-div-5{
+	position: absolute;
+	bottom: 100px;
+	left: 800px;
+}
+
+.F-div-6{
+	position: absolute;
+	bottom: 120px;
+	left: 1000px;
+}
+

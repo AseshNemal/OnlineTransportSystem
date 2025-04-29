@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial',sans-serif;
+
+}
+
+body{
+    background-image: url('Cimages/contactUsbg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-us{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    width: 350px;
+    text-align: center;
+    color: #fff; 
+
+}
+
+.contact-us h1{
+
+    font-size: 30px;
+    color: #ffd700;/*Gold color*/
+    margin-bottom: 20px;
+
+}
+
+.contact-us p{
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 15px;
+
+}
+
+.contact-us input, .contact-us select, .contact-us textarea{
+
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: grey;
+    outline: none;
+
+}
+
+.contact-us input::placeholder, .contact-us textarea::placeholder{
+    color:#ccc;/*light gray*/
+
+}
+
+.contact-us input:focus, .contact-us select:focus, .contact-us textarea:focus{
+    boder-color:#ffd700;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.contact-us button{
+    width: 100%;
+    padding: 8px;
+    background-color: #ffd700;
+    color: #000; 
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-us button:hover{
+
+    background-color: #ffcc00;
+}
+
+.direct-contact {
+    margin-top: 20px;
+
+}
+
+.direct-contact p{
+
+    font-size: 14px;
+    color: #ccc;
+}
+
+.direct-contact h2{
+
+    font-size: 20px;
+    color: #ffd700; /* Gold color for phone number */
+    margin-top: 10px;
+}
+
+.direct-contact a {
+
+    color: #ffd700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+}
+
+.direct-contact a:hover{
+
+    color:#ffcc00;
+}

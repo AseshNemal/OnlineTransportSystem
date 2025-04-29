@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+
+         <servlet>
+         	<servlet-name>login</servlet-name>
+         	<servlet-class>com.servlet.LoginServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>login</servlet-name>
+         	<url-pattern>/Log</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>Register</servlet-name>
+         	<servlet-class>com.servlet.RegisterServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>Register</servlet-name>
+         	<url-pattern>/Register</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>UpdateDriver</servlet-name>
+         	<servlet-class>com.servlet.UpdateDriverServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>UpdateDriver</servlet-name>
+         	<url-pattern>/UpdateDriver</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>deleteDriver</servlet-name>
+         	<servlet-class>com.servlet.DeleteDriverServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>deleteDriver</servlet-name>
+         	<url-pattern>/deleteDriver</url-pattern>
+         </servlet-mapping>
+         
+         
+         
+          <servlet>
+         	<servlet-name>addRide</servlet-name>
+         	<servlet-class>com.servlet.AddRideServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>addRide</servlet-name>
+         	<url-pattern>/addRide</url-pattern>
+         </servlet-mapping>
+         
+         
+         
+         <servlet>
+         	<servlet-name>acceptRide</servlet-name>
+         	<servlet-class>com.servlet.AcceptRideServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>acceptRide</servlet-name>
+         	<url-pattern>/startRide</url-pattern>
+         </servlet-mapping>
+         
+         
+          
+         <servlet>
+         	<servlet-name>UpdateRideFee</servlet-name>
+         	<servlet-class>com.servlet.UpdateRideFeeServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>UpdateRideFee</servlet-name>
+         	<url-pattern>/UpdateRideFee</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>deleteRide</servlet-name>
+         	<servlet-class>com.servlet.DeleteRideServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>deleteRide</servlet-name>
+         	<url-pattern>/deleteRide</url-pattern>
+         </servlet-mapping>
+         
+         
+          <servlet>
+         	<servlet-name>rideList</servlet-name>
+         	<servlet-class>com.servlet.GetRideListServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>rideList</servlet-name>
+         	<url-pattern>/rideList</url-pattern>
+         </servlet-mapping>
+         
+    
+         <servlet>
+         	<servlet-name>CalculateFee</servlet-name>
+         	<servlet-class>com.servlet.UpdateRideFeeServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>CalculateFee</servlet-name>
+         	<url-pattern>/CalculateFee</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>passengerRegister</servlet-name>
+         	<servlet-class>com.servlet.PassengerRegisterServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>passengerRegister</servlet-name>
+         	<url-pattern>/passengerRegister</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>PassengerLogin</servlet-name>
+         	<servlet-class>com.servlet.PassengerLoginServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>PassengerLogin</servlet-name>
+         	<url-pattern>/PassengerLogin</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>passengerUpdate</servlet-name>
+         	<servlet-class>com.servlet.UpdatePassengerServlat</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>passengerUpdate</servlet-name>
+         	<url-pattern>/passengerUpdate</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>deletePassenger</servlet-name>
+         	<servlet-class>com.servlet.DeletePassengerServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>deletePassenger</servlet-name>
+         	<url-pattern>/deletePassenger</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>passengerRides</servlet-name>
+         	<servlet-class>com.servlet.getPassengerRides</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>passengerRides</servlet-name>
+         	<url-pattern>/passengerRides</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>insertTrip</servlet-name>
+         	<servlet-class>com.servlet.TripInsertServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>insertTrip</servlet-name>
+         	<url-pattern>/insertTrip</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>tUpdate</servlet-name>
+         	<servlet-class>com.servlet.UpdateServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>tUpdate</servlet-name>
+         	<url-pattern>/tUpdate</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>exit</servlet-name>
+         	<servlet-class>com.servlet.ExitServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>exit</servlet-name>
+         	<url-pattern>/exit</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>tDelete</servlet-name>
+         	<servlet-class>com.servlet.DeleteServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>tDelete</servlet-name>
+         	<url-pattern>/tDelete</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>myTrip</servlet-name>
+         	<servlet-class>com.servlet.AllTripsServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>myTrip</servlet-name>
+         	<url-pattern>/myTrip</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>adminView</servlet-name>
+         	<servlet-class>com.servlet.TakeActionServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>adminView</servlet-name>
+         	<url-pattern>/adminView</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>adminUpdate</servlet-name>
+         	<servlet-class>com.servlet.UpdateStatusServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>adminUpdate</servlet-name>
+         	<url-pattern>/adminUpdate</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>staffLogin</servlet-name>
+         	<servlet-class>com.servlet.StaffLoginServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>staffLogin</servlet-name>
+         	<url-pattern>/staffLogin</url-pattern>
+         </servlet-mapping>
+         
+
+         <servlet>
+         	<servlet-name>GetPassengerDetails</servlet-name>
+         	<servlet-class>com.servlet.GetPassengerDetailsServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>GetPassengerDetails</servlet-name>
+         	<url-pattern>/GetPassengerDetails</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>InsertServlets</servlet-name>
+         	<servlet-class>com.servlet.InsertServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>InsertServlets</servlet-name>
+         	<url-pattern>/InsertServlets</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>UpdateInServlets</servlet-name>
+         	<servlet-class>com.servlet.UpdateInServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>UpdateInServlets</servlet-name>
+         	<url-pattern>/UpdateInServlets</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>DeleteInqServlets</servlet-name>
+         	<servlet-class>com.servlet.DeleteInqServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>DeleteInqServlets</servlet-name>
+         	<url-pattern>/DeleteInqServlets</url-pattern>
+         </servlet-mapping>
+         
+         
+         
+         <servlet>
+         	<servlet-name>UpdateCSRServlets</servlet-name>
+         	<servlet-class>com.servlet.UpdateCSRServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>UpdateCSRServlets</servlet-name>
+         	<url-pattern>/UpdateCSRServlets</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>InqGetAllServlets</servlet-name>
+         	<servlet-class>com.servlet.InqGetAllServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>InqGetAllServlets</servlet-name>
+         	<url-pattern>/InqGetAllServlets</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>GetMyInqServlets</servlet-name>
+         	<servlet-class>com.servlet.GetMyInqServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>GetMyInqServlets</servlet-name>
+         	<url-pattern>/GetMyInqServlets</url-pattern>
+         </servlet-mapping>
+          
+            
+               
+</web-app>

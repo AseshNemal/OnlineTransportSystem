@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: gray;
+}
+
+a:active{
+	color: black;
+}
+
+.div-1{
+	background-color: black;
+	color: white;
+	height: 60px;
+
+}
+
+#naviUL{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.naviLI{
+	float: left;
+}
+
+.naviLIF{
+	float: right;
+}
+
+.a1{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+#ID-1{
+	display: inline-block;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+
+
+}
